@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(xargs grep -l \"GenericSchema\")",
+      "Bash(xargs grep -l \"class SupabaseClient\")",
+      "Bash(xargs grep -l \"GenericTable\\\\|GenericSchema\")",
+      "Bash(npx eslint *)",
+      "Bash(npm run *)",
+      "Bash(chromium-cli --help)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx playwright *)",
+      "Bash(cp /tmp/screenshot.mjs ./__screenshot.mjs)",
+      "Bash(node __screenshot.mjs)",
+      "Read(//c/tmp/**)",
+      "Bash(cygpath -w /tmp/screenshot.png)",
+      "Bash(find / -maxdepth 3 -iname \"screenshot.png\" 2>/dev/null; find \"C:/tmp\" -iname \"screenshot.png\" 2>/dev/null; ls -la \"C:/tmp\" 2>/dev/null)",
+      "Read(//c//**)",
+      "Bash(sed -i \"s/await page.waitForSelector\\('text=Selecciona un usuario…'\\)/await page.waitForSelector\\('text=Nueva reserva', { timeout: 5000 }\\)/\" __screenshot4.mjs)",
+      "Bash(node __screenshot4.mjs)"
+    ]
+  }
+}
